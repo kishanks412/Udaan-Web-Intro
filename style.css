@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 211, 47);
+}
+
+.top{
+    padding: 10px;
+    position:relative;
+    display: flex;
+    font-weight: bold;
+    
+    
+    margin-left: 5px;
+}
+.top a{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(87, 9, 117);
+    font-family: Arial, Helvetica, sans-serif
+}
+.top a:hover{
+    background-color: yellow;
+    color: red;
+    
+}
+.text{
+    margin-left: auto;
+    border-radius: 10px;
+    border-color: none;
+    
+}
+
+.middle{
+    background-image: url('pizza-03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 90vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    line-height: 1.6px;
+    bottom: center;
+    right: center;
+    background-color: rgb(231, 134, 69);
+    color: white;
+    border-radius: 2000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+p{
+    line-height: 20px;
+}
+.content a{
+    font-weight: bold;
+    color: white;
+}
+.content a:hover{
+    
+    color: green;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+
